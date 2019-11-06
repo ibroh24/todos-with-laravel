@@ -18,7 +18,7 @@
 </head>
 <body>
     @if (Session::has('success'))
-        <div style="background-color:green; color:yellow">
+        <div style="background-color:green; color:yellow; margin-right: 1020px">
             {{Session::get('success')}}
         </div>
         
